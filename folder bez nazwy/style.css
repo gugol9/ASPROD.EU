@@ -1,0 +1,50 @@
+body
+{
+	background-color: #2F3336;
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+h3
+{
+    color: blue;/*#203C85*/
+	margin: 20px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+
+}
+
+p
+
+{
+	color: blue;/*#203C85*/
+	margin: 20px;
+	text-align: center;
+}
+
+
+.obraz
+{
+	text-align: center;
+}
+
+.obraz img
+{
+	width: 100%;
+	height: auto;
+}
+
+
+.obraz p
+{
+	margin-bottom: 30px;
+}
+
+.obraz figcaption
+{
+	margin-top: 8px;
+}
+
+
+

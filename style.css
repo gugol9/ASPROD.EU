@@ -1,0 +1,83 @@
+
+body
+{
+    background-image: url("img/hexellence.png");
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+h3
+{
+    color: #203C85;/*#203C85*/
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+p
+
+{
+    color: blue;/*#203C85*/
+    margin: 20px;
+    text-align: center;
+}
+
+
+.obraz
+{
+    text-align: center;
+}
+
+.obraz img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.obraz p
+{
+    margin-bottom: 30px;
+}
+
+.obraz figcaption
+{
+    margin-top: 8px;
+    color: #203C85;
+}
+
+.carousel-inner img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel
+{
+    width: 1400px;
+
+}
+
+
+
+
+.photo1
+{
+    transition: all 0.2s ease-in-out;
+
+}
+
+.photo1:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+
