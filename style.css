@@ -55,6 +55,7 @@ hr
     font-weight: bold;
 }
 
+
 .carousel-inner img
 {
     width: 100%;
@@ -64,9 +65,11 @@ hr
 
 .carousel
 {
-    width: 1400px;
+    width: 1180px;
 
 }
+
+
 
 
 .photo1
@@ -81,6 +84,8 @@ hr
     -ms-transform: scale(0.9);
     transform: scale(0.9);
 }
+
+
 
 
 
