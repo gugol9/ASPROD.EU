@@ -9,21 +9,25 @@ body
 h3
 {
     color: #203C85;/*#203C85*/
-
     text-align: center;
     font-size: 36px;
-    font-weight: 400;
     margin-top: 40px;
     margin-bottom: 80px;
-
+    font-weight:bold;
+    text-align: center;
 }
 
 p
 
 {
-    color: blue;/*#203C85*/
+    color: black;/*#203C85*/
     margin: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+hr
+{
+    border: #203C85 solid;
 }
 
 
@@ -48,6 +52,7 @@ p
 {
     margin-top: 8px;
     color: #203C85;
+    font-weight: bold;
 }
 
 .carousel-inner img
@@ -62,8 +67,6 @@ p
     width: 1400px;
 
 }
-
-
 
 
 .photo1
