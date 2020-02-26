@@ -6,7 +6,8 @@ Deny from all
 
 RewriteEngine on
 RewriteRule spoldzielnia-Asprod-Strzyzow index.html
-RewriteRule oferta-metal-drewno-meble oferta.html
-RewriteRule historia-firmy-Asprod o_naszej_firmie.html
-RewriteRule nasza-lokalizacja-Asprod gdzie_nas_znalezc.html
+RewriteRule produkty oferta.html
+RewriteRule o-nas o_naszej_firmie.html
+RewriteRule lokalizacja gdzie_nas_znalezc.html
+RewriteRule kontakt kontakt.html
 
