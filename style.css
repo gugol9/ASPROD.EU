@@ -61,6 +61,14 @@ a.middle:hover:before {
     transform: scaleX(1);
 }
 
+h2{
+    color: #000000;
+    background-color:#EEE;
+    padding:15px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
 h3 {
     color: #203C85;
     text-align: center;
@@ -97,8 +105,9 @@ hr {
 
 .obraz figcaption {
     margin-top: 8px;
-    color: #203C85;
+    color: #000000;
     font-weight: bold;
+
 }
 
 .photo1 {
@@ -120,7 +129,7 @@ iframe {
 
 @media (max-width: 575px) {
 
-    img#circlee {
+    img.circlee {
         max-width: 460px;
 
     }
@@ -129,31 +138,43 @@ iframe {
 
 @media (max-width: 719px) {
 
-    img#circlee {
+    img.circlee {
         max-width: 460px;
 
     }
 
 }
 
+@media (max-width: 580px) {
+    img.przedmiot{
+        transform: scale(0.6, 0.5);
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+}
+
+
+
+
+
 .ph {
     border: 2px solid black;
     border-radius: 150px;
 }
 
-figcaption {
-    color: #203C85;
-    text-align: center;
-}
+
 
 .kafelek {
 
     padding-top: 50px;
-    padding-right: 30px;
+    padding-right: 10px;
     padding-bottom: 50px;
-    padding-left: 30px;
+    padding-left: 10px;
     background-color: white;
     border: 1px solid lightgray;
+
 }
 
 .kafelek:hover {
@@ -281,4 +302,11 @@ a:hover {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
+}
+
+
+
+.tabelka
+{
+    padding-top: 50px;
 }
