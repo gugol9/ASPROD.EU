@@ -19,15 +19,19 @@ body::-webkit-scrollbar-thumb {
 
 
 body {
-    /* Background pattern from subtlepatterns.com */
-    background-image: url("img/hexellence.png");
-    background-color: white;
+    /* Background pattern from subtlepatterns.com
+    background-image: url("img/hexellence.png");*/
+    background-color: #FFFFFF;
     background-position: center;
     background-attachment: fixed;
     color: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 
+}
+
+.bg-jumpers{
+    background-color: 	#CDEBA7; /*    #906030  #CADC79         */
 }
 
 .upper:hover{
@@ -79,11 +83,22 @@ h3 {
 
 }
 
+h4{
+    color: #000000;
+    font-weight: 600;
+}
+
+h5{
+    color: gray;
+}
+
+
 p {
     color: black;
     margin: 20px;
     text-align: left;
     font-weight: 400;
+
 }
 
 hr {
@@ -112,6 +127,7 @@ hr {
 
 .photo1 {
     transition: all 0.2s ease-in-out;
+
 
 }
 
@@ -152,10 +168,8 @@ iframe {
         padding: 0px;
 
     }
-    
+
 }
-
-
 
 
 
@@ -256,7 +270,7 @@ a:hover {
 }
 
 
-.contact-section button{
+.contact-section .button{
     background: none;
     color: #70a1ff;
     border: 1px solid #70a1ff;
@@ -268,7 +282,7 @@ a:hover {
     cursor: pointer;
 }
 
-.contact-section button:hover{
+.contact-section .button:hover{
     background: #70a1ff;
     color: #fff;
 }
@@ -280,33 +294,47 @@ a:hover {
     }
 }
 
-.postcard{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.photo5
-{
-
-    overflow: hidden;
-}
-
-.photo5 img
-{
-    transition: all 0.5s ease-in-out;
-}
-
-.photo5:hover img
-{
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-}
-
 
 
 .tabelka
 {
     padding-top: 50px;
 }
+
+
+.overlay
+{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+
+
+}
+.link p
+{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.overlay .link
+{
+    position: absolute;
+    display: block;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.overlay:hover .link
+{
+    opacity: 0.8;
+}
+
+.cursor{
+    cursor: default;
+}
+

@@ -31,7 +31,7 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-light bg-white bg-jumpers navbar-expand-lg">
+    <nav class="navbar navbar-light  bg-jumpers navbar-expand-lg">
         <a class="navbar-brand " href="spoldzielnia-Asprod-Strzyzow"><img src="img/logo.png" width="100" height="100" class="d-inline-block mr-1 align-bottom" alt="ASPROD"></a>
 
         <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="przełącznik nawigacji ">
@@ -97,10 +97,13 @@
                     <div class="contact-section">
                         <div class="inner-width">
                             <h1>Formularz kontaktowy</h1>
-                            <input type="text" class="name" placeholder="Imie">
-                            <input type="email" class="email" placeholder="Email">
-                            <textarea rows="1" placeholder="Wiadomość" class="message"></textarea>
-                            <button>Wyślij</button>
+                                <form method="POST" name="contactform" action="mail.php">
+                                    <input type="text" name="namee" class="name" placeholder="Imie">
+                                    <input type="email" name="emaill" class="email" placeholder="Email">
+                                    <textarea rows="1" name="messagee"  placeholder="Wiadomość" class="message"></textarea>
+                                    <input type="submit" name="submit" value="Wyślij" class="button"/>
+                                </form>
+
                         </div>
                     </div>
                 </div>
