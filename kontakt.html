@@ -1,83 +1,75 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-<head>
+  <head>
     <meta charset=utf-8>
-    <title>ASPROD - Produkty</title>
-
+    <title>ASPROD - Producent mebli szkolnych, wyrobów i pojemników ocynkowanych. Informacje o firmie.</title>
 
     <meta name="description" content="Jesteśmy producentem mebli szkolnych oraz wyrobów ocynkowanych. Produkujemy wiadra oraz konewki. Pojemniki ocynkowane oraz meble szkolne.">
     <meta name="keywords" content="meble szkolne, wiadra, konewki, wyroby ocynkowane, pojemniki ocynkowane, producent pojemników, producent mebli szkolnych">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">              <!--  AUTHOR:  animate.css -https://daneden.github.io/animate.css/   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--  AUTHOR:  Copyright (c) 2015 Michał Sajnóg  https://github.com/michalsnik/aos   -->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-
-
-
-
-
-</head>
-
-<body>
-<header>
-    <nav class="navbar navbar-light  bg-jumpers navbar-expand-lg">
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-jumpers navbar-expand-lg">
         <a class="navbar-brand " href="spoldzielnia-Asprod-Strzyzow"><img src="img/logo.png" width="100" height="100" class="d-inline-block mr-1 align-bottom" alt="ASPROD"></a>
 
         <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="przełącznik nawigacji ">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
 
         <div class="collapse navbar-collapse" id="mainmenu">
 
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                    <a class="nav-link ml-1 middle" href="spoldzielnia-Asprod-Strzyzow">ASPROD</a>
-                </li>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link ml-1 middle" href="spoldzielnia-Asprod-Strzyzow">ASPROD</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link ml-5 middle" href="produkty">PRODUKTY</a>
-                </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ml-5 middle dropbtn" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> PRODUKTY </a>
 
-                <li class="nav-item">
-                    <a class="nav-link ml-5 middle" href="o-nas">O NASZEJ FIRMIE</a>
-                </li>
+              <div class="dropdown-menu dropdown-content" aria-labelledby="submenu">
+                <a class="dropdown-item drop-item" href="wyroby_z_metalu.html"> WYROBY Z METALU </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">WYROBY Z DREWNA I SKLEJKI </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="meble.html"> MEBLE </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> MAŁA ARCHITEKTURA OGRODOWA </a>
+              </div>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link ml-5 active middle" href="kontakt">KONTAKT</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link ml-5 middle" href="o-nas">O NASZEJ FIRMIE</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link ml-5 middle" href="lokalizacja"">GDZIE NAS ZNALEŹĆ ? </a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link ml-5 middle active" href="kontakt">KONTAKT</a>
+            </li>
 
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link ml-5 middle" href="lokalizacja">GDZIE NAS ZNALEŹĆ ?</a>
+            </li>
+          </ul>
 
-            <nav class="navbar navbar-light ">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" aria-label="Search">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search "></i></button>
-                </form>
-            </nav>
 
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 <main>
-    <section>
+    <section class="obraz">
 
-        <div class="container ">
+        <div class="container-fluid ">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -92,8 +84,7 @@
 
 
             <div class="row">
-
-                <div class="col-lg-12">
+                <div class="col-sm-7">
                     <div class="contact-section">
                         <div class="inner-width">
                             <h1>Formularz kontaktowy</h1>
@@ -103,13 +94,29 @@
                                     <textarea rows="1" name="messagee"  placeholder="Wiadomość" class="message"></textarea>
                                     <input type="submit" name="submit" value="Wyślij" class="button"/>
                                 </form>
-
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-5 ">
+
+                    <h1 class="nag">Spółdzielnia ASPROD </h1>
+                    <hr class="hrbold">
+
+                    <aside><p class="ll"> Tel: +48 (17)276-23-23 </p></aside>
+                    <hr class="loc">
+
+                    <aside> <p class="ll"> Tel: +48 (17)276-13-03  </p></aside>
+                    <hr class="loc">
+
+                    <aside><p class="ll">Email: asprod@asprod.eu </p></aside>
+                    <hr class="loc">
+
+                    <aside><p class="ll">Fax wewn.: 104 </p></aside>
+                    <hr class="loc">
+
+                </div>
 
 
-            </div>
         </div>
 
     </section>
@@ -124,4 +131,3 @@
 </body>
 
 </html>
-

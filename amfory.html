@@ -10,17 +10,12 @@
     <meta name="keywords" content="meble szkolne, wiadra, konewki, wyroby ocynkowane, pojemniki ocynkowane, producent pojemników, producent mebli szkolnych">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">              <!--  AUTHOR:  animate.css -https://daneden.github.io/animate.css/   -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.png" />
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
 
@@ -49,8 +44,18 @@
                     <a class="nav-link ml-1 middle" href="spoldzielnia-Asprod-Strzyzow">ASPROD</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link ml-5 active middle" href="produkty">PRODUKTY</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ml-5 middle dropbtn" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> PRODUKTY </a>
+
+                  <div class="dropdown-menu dropdown-content" aria-labelledby="submenu">
+                    <a class="dropdown-item drop-item" href="wyroby_z_metalu.html"> WYROBY Z METALU </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">WYROBY Z DREWNA I SKLEJKI </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="meble.html"> MEBLE </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"> MAŁA ARCHITEKTURA OGRODOWA </a>
+                  </div>
                 </li>
 
                 <li class="nav-item">
@@ -67,12 +72,7 @@
 
             </ul>
 
-            <nav class="navbar navbar-light ">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" aria-label="Search">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search "></i></button>
-                </form>
-            </nav>
+
 
         </div>
     </nav>
@@ -85,7 +85,6 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html" class=" upper middle">Strona główna</a></li>
-                    <li class="breadcrumb-item"><a href="oferta.html" class=" upper middle">Produkty</a></li>
                     <li class="breadcrumb-item"><a href="wyroby_z_metalu.html" class=" upper middle">Wyroby z metalu</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Amfory</li>
                 </ol>
@@ -256,4 +255,3 @@
 </body>
 
 </html>
-

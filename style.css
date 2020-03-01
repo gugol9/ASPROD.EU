@@ -19,19 +19,18 @@ body::-webkit-scrollbar-thumb {
 
 
 body {
-    /* Background pattern from subtlepatterns.com
-    background-image: url("img/hexellence.png");*/
+
     background-color: #FFFFFF;
     background-position: center;
     background-attachment: fixed;
-    color: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 
 }
 
 .bg-jumpers{
-    background-color: 	#CDEBA7; /*    #906030  #CADC79         */
+    background-color: #C2B280; /*    #906030  #CADC79  #FFD700   	#CDEBA7    */
+
 }
 
 .upper:hover{
@@ -47,23 +46,33 @@ a.middle
     position: relative;
 }
 
-a.middle:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out;
+@media(min-width: 992px) {
+    a.middle:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #000000;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
 }
 
-a.middle:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
+@media(min-width: 992px) {
+    a.middle:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+
 }
+
+
+
+
 
 h2{
     color: #000000;
@@ -102,7 +111,7 @@ p {
 }
 
 hr {
-    border: #203C85 solid;
+  border: #203C85 solid;
 }
 
 .obraz {
@@ -127,6 +136,7 @@ hr {
 
 .photo1 {
     transition: all 0.2s ease-in-out;
+    padding-top: 80px;
 
 
 }
@@ -143,23 +153,8 @@ iframe {
     margin-bottom: 80px;
 }
 
-@media (max-width: 575px) {
 
-    img.circlee {
-        max-width: 460px;
 
-    }
-
-}
-
-@media (max-width: 719px) {
-
-    img.circlee {
-        max-width: 460px;
-
-    }
-
-}
 
 @media (max-width: 580px) {
     img.przedmiot{
@@ -220,6 +215,8 @@ a:hover {
     color: black;
 
 }
+
+/*FORMULARZ KONTAKTOWY*/
 
 .contact-section{
     background: #313840;
@@ -299,8 +296,14 @@ a:hover {
 .tabelka
 {
     padding-top: 50px;
+
 }
 
+.link p
+{
+    font-weight: bolder;
+    text-align: center;
+}
 
 .overlay
 {
@@ -311,12 +314,6 @@ a:hover {
 
 
 }
-.link p
-{
-    font-weight: bolder;
-    text-align: center;
-}
-
 
 .overlay .link
 {
@@ -337,4 +334,98 @@ a:hover {
 .cursor{
     cursor: default;
 }
+
+/* MENU */
+.dropbtn {
+
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C2B280;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@media  (min-width:991px){
+    .dropdown-content a:hover {
+
+    }
+}
+
+
+@media  (min-width:991px){
+    .dropdown:hover .dropdown-content {
+        display: block;
+
+    }
+}
+
+.dropdown-item:hover{
+    font-weight: bold;
+    background-color: #C2B280;
+}
+
+
+
+
+p.ll{
+  font-size: 19px;
+  text-align: center;
+}
+
+h1.nag{
+  color: black;
+    padding-bottom: 5px;
+
+}
+
+
+
+hr.hrbold {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: #203C85;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.hrbold:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #203C85;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.loc{
+
+      border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
 
