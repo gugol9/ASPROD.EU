@@ -29,7 +29,7 @@ body {
 }
 
 .bg-jumpers{
-    background-color: #C2B280; /*    #906030  #CADC79  #FFD700   	#CDEBA7    */
+    background-color:#C2B280 ; /*    #906030  #CADC79  #FFD700   	#CDEBA7  #C2B280 #333333 */
 
 }
 
@@ -177,9 +177,9 @@ iframe {
 
 .kafelek {
 
-    padding-top: 50px;
+    padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-left: 10px;
     background-color: white;
     border: 1px solid lightgray;
@@ -190,6 +190,22 @@ iframe {
 
     border: 1px solid #203C85;
 }
+
+.kafelek1 {
+
+    
+    background-color: white;
+    border: 1px solid lightgray;
+
+}
+
+.kafelek1:hover {
+
+    border: 1px solid #203C85;
+}
+
+
+
 
 .breadcrumb {
     background-color: rgb(0, 0, 0, 0);
@@ -429,3 +445,20 @@ hr.loc{
 }
 
 
+.sklep
+{
+    margin-top: 10%;
+    border: 1px solid #203C85;
+}
+
+
+
+p.czarne_tlo
+{
+    color: #FFFFFF;
+}
+
+li
+{
+    color: #203C85;
+}
