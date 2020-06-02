@@ -1,6 +1,6 @@
 <?php
 
-$to      = 'ors73343@eoopy.com';
+$to      = 'markian99@wp.pl';
 $name    = $_POST['namee'];
 $email   = $_POST['emaill'];
 $subject = 'Nowy e-mail od ' . $name . ' (' . $email . ')';
@@ -10,5 +10,5 @@ $headers .= 'Content-Type: text/html; charset=utf-8';
 
 mail($to, $subject, $message, $headers);
 
-header('Location:index.html');
+header('Location:kontakt.html');
 ?>

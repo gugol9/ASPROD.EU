@@ -1,26 +1,5 @@
-
-/*
-body::-webkit-scrollbar {
-    width: 13px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: #efefef;
-    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #203C85;
-    border-radius: 20px;
-    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
-}
-*/
-
-
-
 body {
-
-    background-color: #FFFFFF;
+    background-color: #fafffa;
     background-position: center;
     background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +8,7 @@ body {
 }
 
 .bg-jumpers{
-    background-color:#C2B280 ; /*    #906030  #CADC79  #FFD700   	#CDEBA7  #C2B280 #333333 */
+    background-color:#fafffa ; /*    #906030  #CADC79  #FFD700   	#CDEBA7  #C2B280 #333333 */
 
 }
 
@@ -136,7 +115,9 @@ hr {
 
 .photo1 {
     transition: all 0.2s ease-in-out;
-    padding-top: 80px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 60px;
 
 
 }
@@ -145,6 +126,7 @@ hr {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    
 }
 
 iframe {
@@ -193,7 +175,10 @@ iframe {
 
 .kafelek1 {
 
-    
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
     background-color: white;
     border: 1px solid lightgray;
 
@@ -369,7 +354,7 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #C2B280;
+  background-color: #fafffa;
   min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -398,7 +383,7 @@ a:hover {
 
 .dropdown-item:hover{
     font-weight: bold;
-    background-color: #C2B280;
+    background-color: #fafffa;
 }
 
 
@@ -412,6 +397,7 @@ p.ll{
 h1.nag{
   color: black;
     padding-bottom: 5px;
+    
 
 }
 
@@ -462,3 +448,67 @@ li
 {
     color: #203C85;
 }
+
+
+#srodek
+{
+    margin-top: 25%;
+}
+
+.now
+{
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+
+.foo
+{
+    font-size:25px;
+}
+
+.icon
+{
+    margin:13px;
+}
+
+
+#me
+{
+   
+    clear: both;
+
+   text-align: center;
+
+    margin-bottom: 0;
+}
+
+#cent
+{
+    text-align: center;
+}
+
+#right
+{
+    text-align: right;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 0;
+    
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+  }
+
+  

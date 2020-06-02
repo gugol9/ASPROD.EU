@@ -6,8 +6,27 @@ Deny from all
 
 RewriteEngine on
 RewriteRule spoldzielnia-Asprod-Strzyzow index.html
+RewriteRule wyroby-z-metalu wyroby_z_metalu.html
+RewriteRule meble meble.html
+RewriteRule wyroby-z-drewna-i-sklejki wyroby_z_drewna_i_sklejki.html
+RewriteRule mala-architektura-ogrodowa mala_architekrua_ogrodowa.html
 RewriteRule produkty oferta.html
 RewriteRule o-nas o_naszej_firmie.html
 RewriteRule lokalizacja gdzie_nas_znalezc.html
 RewriteRule kontakt kontakt.html
+RewriteRule konewkii konewki.html
+RewriteRule kosze-i-pojemniki-uzytkowe kosze_i_pojemniki_uzytkowe.html
+RewriteRule wiadra-i-pojemniki-uzytkowe wiadra_i_pojemniki.html
+RewriteRule pojemniki-na-kwiatki pojemniki_na_kwiatki.html
+
+RewriteRule asprod-Strzyzow-Genossenschaft index_de.html
+RewriteRule kontakt_de kontakt_de.html
+RewriteRule möbel meble_de.html
+
+
+
+
+
+
+
 
