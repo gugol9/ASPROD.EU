@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
   <head>
     <meta charset=utf-8>
-    <title>ASPROD - informacje o firmie</title>
+    <title>ASPROD - About us</title>
 
     <meta name="description" content="Jesteśmy producentem mebli szkolnych oraz wyrobów ocynkowanych. Produkujemy wiadra oraz konewki. Pojemniki ocynkowane oraz meble szkolne.">
     <meta name="keywords" content="meble szkolne, wiadra, konewki, wyroby ocynkowane, pojemniki ocynkowane, producent pojemników, producent mebli szkolnych">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" type="text/css" href="swiper/swiper.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--  AUTHOR:  Copyright (c) 2015 Michał Sajnóg  https://github.com/michalsnik/aos   -->
+    
+    
 
 
   </head>
 
   <body>
+   
+     
+   
+    
     <header>
       <nav class="navbar navbar-light bg-jumpers navbar-expand-lg">
-        <a class="navbar-brand " href="spoldzielnia-Asprod-Strzyzow"><img src="img/logo.png" width="100" height="100" class="d-inline-block mr-1 align-bottom" alt="ASPROD"></a>
+        <a class="navbar-brand " href="asprod-Strzyżów-cooperative"><img src="img/logo.png" width="100" height="100" class="d-inline-block mr-1 align-bottom" alt="ASPROD"></a>
 
         <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="przełącznik nawigacji ">
           <span class="navbar-toggler-icon"></span>
@@ -31,148 +37,139 @@
         <div class="collapse navbar-collapse" id="mainmenu">
 
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a class="nav-link ml-1 middle" href="spoldzielnia-Asprod-Strzyzow">ASPROD</a>
+            <li class="nav-item">
+              <a class="nav-link ml-1 middle" href="asprod-Strzyżów-cooperative">ASPROD</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle ml-4 middle dropbtn" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> OFERTA </a>
+              <a class="nav-link dropdown-toggle ml-4 middle dropbtn" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> OFFER </a>
 
-              <div class="dropdown-menu dropdown-content" aria-labelledby="submenu">
-                <a class="dropdown-item drop-item" href="wyroby-z-metalu"> WYROBY Z METALU </a>
+              <div class="dropdown-menu dropdown-content " aria-labelledby="submenu">
+                <a class="dropdown-item drop-item" href="items-made-of-metal" > ITEMS MADE OF METAL </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="wyroby-z-drewna-i-sklejki">WYROBY Z DREWNA I SKLEJKI </a>
+                <a class="dropdown-item disabled" href="#">ITEMS MADE OF WOOD AND PLYWOOD </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="meble"> MEBLE </a>
+                <a class="dropdown-item" href="furniture"> FURNITURE</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="mala-architektura-ogrodowa"> MAŁA ARCHITEKTURA OGRODOWA </a>
+                <a class="dropdown-item disabled" href="#"> GARDEN FURNITURE </a>
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link ml-4 middle active" href="o-nas">O NAS</a>
+              <a class="nav-link ml-4 middle active" href="about-us" >ABOUT US </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link ml-4 middle" href="kontakt">KONTAKT</a>
+              <a class="nav-link ml-4 middle" href="concact" > CONTACT</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link ml-4 middle" href="lokalizacja">LOKALIZACJA</a>
+              <a class="nav-link ml-4 middle" href="find-us">FIND US  </a>
             </li>
+
             <li class="nav-item">
 
-              <a class="nav-link ml-5 middle" href="about-us">ENGLISH<img src="img/usa.jpg" class="d-inline-block ml-2 align-bottom" alt=""></a>
+              <a class="nav-link ml-5 middle active" href="about-us">ENGLISH<img src="img/usa.jpg" class="d-inline-block ml-2 align-bottom" alt=""></a>
 
             </li>
 
             <li class="nav-item">
 
               <a class="nav-link ml-4 middle disabled" href="#">DEUTSCH<img src="img/DE.jpg" class="d-inline-block ml-2 align-bottom" alt=""></a>            </li>
-            </li>
 
             <li class="nav-item">
 
-              <a class="nav-link ml-4 middle" href="o-nas">POLSKI<img src="img/PL.png" class="d-inline-block ml-2 align-bottom " alt=""></a>
+              <a class="nav-link ml-4 middle " href="o-nas">POLSKI<img src="img/PL.png" class="d-inline-block ml-2 align-bottom " alt=""></a>
             </li>
+       
           </ul>
-
-
-
+        
 
         </div>
       </nav>
     </header>
-
 <main>
     <section class="obraz">
         <div class="container">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="spoldzielnia-Asprod-Strzyzow" class=" upper middle">Strona główna</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">O Nas</li>
+                    <li class="breadcrumb-item"><a href="asprod-Strzyżów-cooperative" class=" upper middle">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About us</li>
                 </ol>
             </nav>
 
             <header>
-                <h3 data-aos="fade-in"  >O NAS</h3>
+                <h3 data-aos="fade-in"  >ABOUT US</h3>
             </header>
 
             <article>
                 <p data-aos="fade-in" >
-                    Współpracujemy w szerokim zakresie z wieloma firmami z całego świata. Naszą zaletą jest bardzo szybka reakcja na zapytania klientów. Możliwość łączenia różnych technologii i materiałów typu drewno, rura, blacha, daje nam duże szanse pozyskania klientów poszukujących tego rodzaju asortymentu.
-                    Nasza dewiza to dobra jakość i dobra cena, co warunkuje postrzeganie nas jako solidnego partnera.
-                    W ostatnim czasie rozpoczęliśmy produkcję z drewna litego, tj. dęba, brzozy, buka dla bardzo dużych firm skandynawskich.
-                    Od maja 2001 roku, w celu zapewnienia wysokiej jakości wyrobów i usług, wdrożony został w Spółdzielni System Zarządzania Jakością zgodny z normą <b>PN-EN ISO 9001:2001</b> .
+                  We work extensively with many companies around the world.  We pride ourselves on quick responses to customers' requests. The possibility of combining different technologies and materials such as wood, pipe, sheet of metal gives us a great chance to win customers looking for this kind of assortment.Our motto is good quality and affordable prices, which determines the perception of us as a reliable partner.
+                  Recently we have started production from solid wood, i.e. oak, birch, beech for a large Scandinavian companies. Since May 2001, in order to ensure high quality of products and services, the company  has implemented a Quality Management System compliant with the <b>PN-EN ISO 9001:2001 standard.</b>
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Lata 90'</h3>
+                <h3 data-aos="fade-in" >1990</h3>
             </header>
 
             <article>
                 <p data-aos="fade-in" >
-                    W latach dziewięćdziesiątych dzięki zakupowi nowoczesnych maszyn, a także opartej o własne technologie produkcji szerokiego asortymentu wyrobów z blachy ocynkowanej i drewna, we współpracy ze światowym potentatem produkcji ekologicznej, szwedzką firmą <b>IKEA</b> i holenderską <b>JCJ HAANS</b>, nastąpił niespotykany w historii Spółdzielni rozwój.
+                  In the nineties, thanks to the purchase of modern machinery; as well as production of a wide range of  metal and wood products based on our own technologies: and in cooperation with the world leader in ecological production Swedish Company <b>IKEA</b> and the Dutch <b>company JCJ HAANS</b>, there was an unprecedented development in the history of the Asprod company
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Lata 80'</h3>
+                <h3 data-aos="fade-in" > 1980</h3>
             </header>
             <article>
                 <p data-aos="fade-in" >
-                    W roku 1984 został oddany do użytku Zakład Metalowy w Strzyżowie, w którym uruchomiono produkcję wiader z blachy ocynkowanej. Na bazie tego wyrobu wdrożono do produkcji całą gamę wiader, pojemników, mis, cylindrów, wanien, tac, amfor, konwi, dzbanów, donic, wazonów i skopków.
-                    W roku 1988, we współpracy ze Spółdzielczym Przedsiębiorstwem <b>COOPEXIM</b> w Warszawie rozpoczęto wysyłanie wyrobów na eksport. Z roku na rok udział eksportu w sprzedaży rósł i wynosi obecnie ponad 97%.
+                  In 1984, the metal works in Strzyżów was commissioned. The production of buckets products using galvanised sheet metal was launched. A wide range of buckets, containers, bowls, cylinders, bathtubs, trays, jugs, pots, vases and sticks were implemented into production. In 1988, in cooperation with the <b>COOPEXIM Company</b> based in Warsaw, the export has begun. Year by year, the export in sales has been growing and currently is 97%.
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Lata 70'</h3>
+                <h3 data-aos="fade-in" > 1970</h3>
             </header>
             <article>
                 <p data-aos="fade-in" >
-                    W latach siedemdziesiątych nastąpił rozwój usług motoryzacyjnych, przy jednoczesnej rezygnacji z wielobranżowości.
-                    W okresie tym nastąpił również dynamiczny rozwój stolarskiej i metalowej działalności produkcyjnej Spółdzielni, która przyjęła nazwę <b>"AUTO-SERVICE"</b>.
+                  The seventies saw the development of automotive services. In this period there was also a dynamic development of carpentry and metal production activity of the company, this then took its name <b>"AUTO-SERVICE".</b>
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Lata 60'</h3>
+                <h3 data-aos="fade-in" > 1960</h3>
             </header>
             <article>
                 <p data-aos="fade-in" >
-                    W latach sześćdziesiątych, w zakres działania Spółdzielni wchodziły usługi fryzjerskie, ślusarskie, szewskie, kowalskie, malarskie, instalacyjne wodno-kanalizacyjne, fotograficzne oraz krawieckie.
-                    W roku 1967 do oferty dołączyły usługi motoryzacyjne, świadczone w pawilonie usługowym w Strzyżowie, w miejscu gdzie dziś znajduje się siedziba Spółdzielni.
-                    Lata sześćdziesiąte były również okresem poszerzania bazy produkcyjnej - wybudowano pawilon usługowy i znacznie rozbudowano stolarnię we Frysztaku oraz zakupiono zakład metalowy w Przedmieściu Czudeckim.
+                  In the sixties, the scope of the Company activities included a variety of services ranging from hairdressing to locksmiths to  painting and  plumbing, photography and tailoring services. In 1967, automotive services were added to our services in Strzyżów, which is where we are located today. The sixties were also a period of expanding the production base - a new bulding  called pavilion was built and the carpenters  shop in Frysztak was significantly expanded, as well as the metal factory in Przedmieście Czudeckie  was purchased.
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Lata 50'</h3>
+                <h3 data-aos="fade-in" >1950</h3>
             </header>
             <article>
                 <p data-aos="fade-in" >
-                    Działalność produkcyjna Spółdzielni rozpoczęła się z dniem 2 kwietnia 1951 roku, kiedy to w zniszczonych pomieszczeniach w centrum Frysztaka uruchomiono produkcję pudełek łubiankowych dla aptek. Pod koniec tego roku zatrudnionych było 39 pracowników, w tym 37 produkcyjnych.
-                    W latach pięćdziesiątych prowadzono jedynie produkcyjną i usługową działalność stolarską.
+                  The production of the company began on 2 April 1951, with boxes for pharmacies. This was launched  in the destroyed in WWII premises in the centre of Frysztak. 
+                   At the end of that year, 37 employees out of 39 employed were directly involved in the line production. In the fifties only joinery services were carried out. 
                 </p>
             </article>
             <hr data-aos="fade-in" >
 
             <header>
-                <h3 data-aos="fade-in" >Jak to się zaczeło?</h3>
+                <h3 data-aos="fade-in" >How it started?</h3>
             </header>
             <article>
                 <p data-aos="fade-in" >
-                    Kolebką Spółdzielni jest Frysztak, gdzie <b>8 października 1950 roku</b> odbyło się Walne Zgromadzenie Założycielskie Spółdzielni Pracy. Zgromadzenie to - liczące 27 członków założycieli - powołało do istnienia Spółdzielnię, przyjęło jej statut, określiło cele i zadania oraz wybrało pierwsze władze.
-                    Spółdzielnia Pracy Przemysłu Drzewnego "Nasza Przyszłość" rozpoczęła działalność pod kierownictwem Zarządu w składzie: Stanisław Strzępek - przewodniczacy, Stefania Rec i Piotr Stasiak - zastępcy przewodniczącego.
-                    Celem Spółdzielni było wówczas "...organizowanie punktów usługowych dla zaspokojenia potrzeb miejscowych w dziedzinie wyrobu artykułów drzewnych", a terenem działania powiat Krosno.
+                  The home of Asprod Company began in  Frysztak, where on <b>October 8th 1950</b>  the General Assembly of the Labour Cooperative was held. This Assembly - consisting of 27 founding members - established the Company and adopted its status, defined its goals also elected the first authorities. 
+                  The Woodworking Industry Company  "Our Future" started its activity under the management of the board in its composition: Stanisław Strzępek as the chairmen, Stefania Rec and Piotr Stasiak - the deputy chairmen. The aim of the Company then  was "organising service point to meet local needs in the field of wood products", and the area of activity was Krosno district.
                 </p>
             </article>
             <hr >

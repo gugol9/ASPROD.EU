@@ -19,14 +19,29 @@ RewriteRule kosze-i-pojemniki-uzytkowe kosze_i_pojemniki_uzytkowe.html
 RewriteRule wiadra-i-pojemniki-uzytkowe wiadra_i_pojemniki.html
 RewriteRule pojemniki-na-kwiatki pojemniki_na_kwiatki.html
 
+
+
+
+RewriteRule asprod-Strzyżów-cooperative en_index.html
+
+RewriteRule items-made-of-metal en_wyroby_z_metalu.html
+RewriteRule items-made-of-wood-and-plywood en_wyroby_z_drewna_i_sklejki.html
+RewriteRule furniture furniture.html
+RewriteRule garden-furnituree en_mala_architekrua_ogrodowa.html
+
+RewriteRule about-us en_o_naszej_firmie.html
+RewriteRule concact en_concat.html
+RewriteRule find-us en_gdzie_nas_znalezc.html
+
+
+RewriteRule wathering-cans en_konewki.html
+RewriteRule watering-cans-kitchen_bins-bins en_kosze_i_pojemniki_uzytkowe.html
+RewriteRule buckets-and-boxes en_wiadra_i_pojemniki.html
+RewriteRule flower-pots-and-boxes en_pojemniki_na_kwiatki.html
+
+
+
+
 RewriteRule asprod-Strzyzow-Genossenschaft index_de.html
 RewriteRule kontakt_de kontakt_de.html
 RewriteRule möbel meble_de.html
-
-
-
-
-
-
-
-
