@@ -1,5 +1,4 @@
 *.css linguist-detectable=true
 *.js linguist-detectable=true
 *.php linguist-detectable=true
-*.bootsrap linguist-detectable=true
 *.html linguist-detectable=true
